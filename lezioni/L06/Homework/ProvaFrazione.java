@@ -43,8 +43,6 @@ public class ProvaFrazione {
         System.out.println("Frazione B: " + B.descrizione());
 
         
-        System.out.println("Somma: " + A.somma(B));
-        System.out.println("Prodotto: " + A.prodotto(B));
         
         
     }
