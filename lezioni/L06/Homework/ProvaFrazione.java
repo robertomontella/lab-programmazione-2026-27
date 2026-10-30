@@ -42,8 +42,10 @@ public class ProvaFrazione {
         System.out.println("Frazione A: " + A.descrizione());
         System.out.println("Frazione B: " + B.descrizione());
 
+        Frazione Somma = A.somma(B);
+        Frazione Prodotto = A.prodotto(B);
         
-        
-        
+        System.out.println("Somma: " + Somma.descrizione());
+        System.out.println("Prodotto: " + Prodotto.descrizione());
     }
 }
